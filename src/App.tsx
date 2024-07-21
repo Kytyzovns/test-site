@@ -39,7 +39,7 @@ function App() {
             <ul>
                 {currentMoney.map((item, index) => {
                     return (
-                        <li key={index}>
+                        money.length >= 4 && <li key={index}>
                            <span>{item.banknots} </span>
                            <span>{item.value} </span>
                            <span>{item.number} </span>
